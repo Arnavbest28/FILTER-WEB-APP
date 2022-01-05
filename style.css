@@ -1,0 +1,39 @@
+h1{
+    color:midnightblue;
+    font-family: 'Haettenschweiler';
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    background-color: whitesmoke;
+    width: 250px;
+    font-size: 40px;
+    height: 60px;
+    padding-top: 3px;
+    border-radius: 10px;
+    text-decoration: double;
+    text-shadow: 2px 2px 2px royalblue;
+}
+body{
+    background-image: url(background.jpg);
+}
+button{
+    background-color: darkcyan;
+    border-style:inset;
+    width: 200px;
+    height: 50px;
+    color: lightgoldenrodyellow;
+    font-variant-caps: all-petite-caps;
+    font-family: Cambria;
+    font-size: 20px;
+}
+canvas{
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    border-width: 10px ;
+    border-style: ridge;
+    color: darkslategrey;
+}
+@keyframes example{
+    from{ box-shadow: -10px 10px 40px rgb(255, 255, 255);}
+    to{ box-shadow: -10px 10px 40px rgb(173, 175, 173);}
+}
